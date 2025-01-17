@@ -1,0 +1,27 @@
+.{
+    .name = "bgfx",
+    .version = "0.0.0",
+    .dependencies = .{
+        .bimg = .{
+            .url = "git+https://github.com/leonardogattidev/bimg#155117b31b4ca2f74f59e320e5131238dd4d1e43",
+            .hash = "1220819dbacea948a69fc0ca8157afcd6be0f53aafb2343208e3f31d413969aebd57",
+            .lazy = true,
+        },
+        .bx = .{
+            .url = "git+https://github.com/leonardogattidev/bx#77753496ae5d39a11af48d61aee4576bcae7dcab",
+            .hash = "122061fc908fb95bbea2205c266066b73df6152436852efba82962677d9e342f32ee",
+            .lazy = true,
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "include",
+
+        "LICENSE",
+        "README.md",
+        "CODEOWNERS",
+        "CONTRIBUTING.md",
+    },
+}

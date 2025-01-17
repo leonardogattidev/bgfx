@@ -9,3 +9,6 @@
 .svn
 .vscode
 tags
+.zig-cache
+.direnv
+zig-out
