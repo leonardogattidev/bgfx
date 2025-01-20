@@ -3,12 +3,12 @@
     .version = "0.0.0",
     .dependencies = .{
         .bx = .{
-            .url = "git+https://github.com/leonardogattidev/bx.git#23d892161557c20d085a84bd51f59759ebcb2c89",
+            .url = "git+https://github.com/InteractiveBin/bx.git#23d892161557c20d085a84bd51f59759ebcb2c89",
             .hash = "1220ded1e1045f8b3654ee5d73e1a1a385b0fc2d3ca53e040b41ce60cc413e10f5b6",
         },
         .bimg = .{
-            .url = "git+https://github.com/leonardogattidev/bimg.git#a6a141b037f92c79a26c8534df72c2534626f8ea",
-            .hash = "12208bb960d12440cbcdab935c541ab675e0539555045a6596634163ac4770ea029d",
+            .url = "git+https://github.com/InteractiveBin/bimg.git#9e05c85a5a2a684f964dd3a4ba9d852b56d343e6",
+            .hash = "122027b5d0b3c75d39ac7a6dd17757be95892040bc89f65558f0b51d2035e4701377",
         },
     },
     .paths = .{
