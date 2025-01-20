@@ -2,20 +2,19 @@
     .name = "bgfx",
     .version = "0.0.0",
     .dependencies = .{
-        .bimg = .{
-            .url = "git+https://github.com/leonardogattidev/bimg#155117b31b4ca2f74f59e320e5131238dd4d1e43",
-            .hash = "1220819dbacea948a69fc0ca8157afcd6be0f53aafb2343208e3f31d413969aebd57",
-            .lazy = true,
-        },
         .bx = .{
-            .url = "git+https://github.com/leonardogattidev/bx#77753496ae5d39a11af48d61aee4576bcae7dcab",
-            .hash = "122061fc908fb95bbea2205c266066b73df6152436852efba82962677d9e342f32ee",
-            .lazy = true,
+            .url = "git+https://github.com/leonardogattidev/bx.git#23d892161557c20d085a84bd51f59759ebcb2c89",
+            .hash = "1220ded1e1045f8b3654ee5d73e1a1a385b0fc2d3ca53e040b41ce60cc413e10f5b6",
+        },
+        .bimg = .{
+            .url = "git+https://github.com/leonardogattidev/bimg.git#a6a141b037f92c79a26c8534df72c2534626f8ea",
+            .hash = "12208bb960d12440cbcdab935c541ab675e0539555045a6596634163ac4770ea029d",
         },
     },
     .paths = .{
         "build.zig",
         "build.zig.zon",
+
         "src",
         "include",
         "3rdparty",
